@@ -46,7 +46,12 @@ html {
   height: 25rem;
   object-fit: cover;
   border-radius: 50%;
+  border: .7rem dotted #e41c6f;
+  background-color: rgba(255,255,255, 0.7);
+  padding: .5rem;
+  opacity: 0.9;
 }
+
 
 
 /* End of Section 1 */
