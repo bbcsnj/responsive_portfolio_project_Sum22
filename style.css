@@ -232,6 +232,11 @@ html {
   box-shadow: 0.3rem 0.3rem 0.5rem #777;
   position: relative;
   overflow: hidden;
+  transition: box-shadow 0.5s;
+}
+
+.project:hover {
+  box-shadow: 1rem 1rem 1rem #777;
 }
 
 .project-text {
@@ -245,6 +250,7 @@ html {
 
 .project:hover .project-text {
   top: 5rem;
+  transition: top 0.3s 0.3s: 
 }
 
 .project-name {
@@ -282,7 +288,7 @@ html {
 
 .project:hover .project-link {
   bottom: 5rem;
-  
+  transition: bottom 0.3s 0.3s;
 }
 /* End of Section 3 */
 
