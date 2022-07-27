@@ -41,6 +41,12 @@ html {
   transform: skew(-10deg);
 } 
 
+.person-img {
+  width: 25rem;
+  height: 25rem;
+  object-fit: cover;
+  border-radius: 50%;
+}
 
 
 /* End of Section 1 */
