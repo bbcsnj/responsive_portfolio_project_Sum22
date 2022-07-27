@@ -250,7 +250,7 @@ html {
 
 .project:hover .project-text {
   top: 5rem;
-  transition: top 0.3s 0.3s: 
+  transition: top 0.3s 0.3s;
 }
 
 .project-name {
