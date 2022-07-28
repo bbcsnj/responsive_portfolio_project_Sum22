@@ -6,7 +6,8 @@ const navbarLinks = document.querySelectorAll('.navbar-link')
 window.addEventListener("scroll", () => {
   if (window.pageYOffset >= navbar.offsetTop) {
     navbar.classList.add("sticky");
-  } else {
+    } 
+  else {
     navbar.classList.remove("sticky");
-  }
+    }
 });  
