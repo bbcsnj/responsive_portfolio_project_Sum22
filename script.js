@@ -1,5 +1,17 @@
 const navbar= document.querySelector(".navbar");
 const navbarOffsetTop = navbar.offsetTop;
+
+window.addEventListener("scroll", () => {
+  if (window.pageYOffset >= navbar.offsetTop) {
+    navbar.classList.add("sticky");
+  } else {
+    navbar.classList.remove("sticky");
+  }
+});  
+
+/*
+
+
 const sections = document.querySelectorAll("section");
 const navbarLinks = document.querySelectorAll(".navbar-link");
 const progress = document.querySelector(".progress-bars-wrapper");
@@ -38,4 +50,4 @@ window.addEventListener("resize", () => {
   window.location.reload();
 });
 
-
+*/
