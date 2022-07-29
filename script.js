@@ -21,9 +21,9 @@ window.addEventListener("scroll", () => {
     offsetTop - 10) {
       navbarLInks.forEach(navbarLink => {
         navbarLink.classList.remove('change');
-      }
+      })
       navbarLinks[i].classList.add('change');
       
-  }  
+  });  
   
 });  
