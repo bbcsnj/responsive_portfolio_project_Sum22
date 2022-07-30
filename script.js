@@ -22,7 +22,7 @@ window.addEventListener("scroll", () => {
           navbarLinks[i].classList.add
           ('change');
     }
-  });  
+  })  
   
 });  
 
