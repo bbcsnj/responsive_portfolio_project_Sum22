@@ -9,21 +9,21 @@ const navbarLinks = document.querySelectorAll('.navbar-link');
     Once they are equal it means the navbar has reached the top of the page
 */
 window.addEventListener("scroll", () => {
-  if (window.pageYOffset >= navbar.offsetTop) {
+  if (window.pageYOffset >= 
+  navbar.offsetTop) {
     navbar.classList.add("sticky");
-    } 
-  else {
+  } else {
     navbar.classList.remove("sticky");
-    }
+  }
   
-  sections.forEach(section => {
+  sections.forEach((section, i) => {
     if(window.pageYOffset >= section.
     offsetTop - 10) {
       navbarLInks.forEach(navbarLink => {
         navbarLink.classList.remove('change');
       })
-      navbarLinks[i].classList.add('change');
-      
+        navbarLinks[i].classList.add('change');
+    } 
   });  
   
 });  
