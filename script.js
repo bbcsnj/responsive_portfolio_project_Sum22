@@ -19,11 +19,34 @@ window.addEventListener("scroll", () => {
   sections.forEach((section, i) => {
     if(window.pageYOffset >= section.
     offsetTop - 10) {
-      navbarLInks.forEach(navbarLink => {
+      navbarLInks.forEach(navbarLink) => {
         navbarLink.classList.remove('change');
-      })
-        navbarLinks[i].classList.add('change');
+      });
+      navbarLinks[i].classList.add('change');
     } 
   });  
   
 });  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
