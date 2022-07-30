@@ -16,13 +16,13 @@ window.addEventListener("scroll", () => {
     navbar.classList.remove("sticky");
   }
   
-  sections.forEach(section, i) => {
+/*  sections.forEach(section, i) => {
       if(window.pageYOffset >= section.
          offsetTop - 10) {
           navbarLinks[i].classList.add
           ('change');
       }
-  })  
+  })  */
   
 });  
 
