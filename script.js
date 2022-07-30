@@ -21,7 +21,7 @@ window.addEventListener("scroll", () => {
          offsetTop - 10) {
           navbarLinks[i].classList.add
           ('change');
-    }
+      }
   })  
   
 });  
