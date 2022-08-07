@@ -3,7 +3,7 @@
     offsetTop - returns the distance from the top edge of page to the element
     Once they are equal it means the navbar has reached the top of the page
 */
-const checkh = window.matchMedia('(hover: none)');
+const checkh = window.('(hover: none)').matches;
 const navbar = document.querySelector(".navbar");
 const navbarOffsetTop = navbar.offsetTop;
 const sections = document.querySelectorAll("section");
@@ -12,7 +12,7 @@ const progress = document.querySelector(".progress-bars-wrapper");
 const progressBarPercents = [97, 89, 85, 87, 80, 70, 50];
 
 
-if (checkh === true) {
+if (checkh) {
   console.log(true);
 } else {
   console.log(false);
