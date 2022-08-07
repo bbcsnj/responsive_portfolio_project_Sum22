@@ -25,7 +25,7 @@ const mainFn = () => {
   }
 
   sections.forEach((section, i) => {
-    if (window.pageYOffset >= section.offsetTop - 10) {
+    if ((window.pageYOffset >= section.offsetTop - 10) && (!checkh))  {
       navbarLinks.forEach((navbarLink) => {
         navbarLink.classList.remove("change");
       });
@@ -33,7 +33,7 @@ const mainFn = () => {
     }
   });
 
-  if (window.pageYOffset + window.innerHeight >= progress.offsetTop) {
+  if ((window.pageYOffset + window.innerHeight >= progress.offsetTop) && (!checkh))  {
     document.querySelectorAll(".progress-percent").forEach((el, i) => {
       el.style.width = `${progressBarPercents[i]}%`;
       el.previousElementSibling.firstElementChild.textContent =
