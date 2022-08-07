@@ -42,7 +42,9 @@ const mainFn = () => {
   }
 };
 
-mainFn();
+if ((!checkh)) {
+  mainFn();
+}
 
 window.addEventListener("resize", () => {
   window.location.reload();
