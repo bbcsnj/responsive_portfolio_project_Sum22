@@ -305,6 +305,7 @@ html {
   color: #fff;
   box-shadow: none;
   border-color: #fff;
+  margin-bottom: 0;
 }
 
 .contact-form {
