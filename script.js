@@ -11,10 +11,9 @@ const navbarLinks = document.querySelectorAll(".navbar-link");
 const progress = document.querySelector(".progress-bars-wrapper");
 const progressBarPercents = [97, 89, 85, 87, 80, 70, 50];
 
-if ((!checkh)) {window.addEventListener("scroll", () => {
+window.addEventListener("scroll", () => {
   mainFn();
 });
-}
 
 const mainFn = () => {
   if (window.pageYOffset >= navbarOffsetTop) {
@@ -43,7 +42,7 @@ const mainFn = () => {
 
 mainFn();
 
-if ((!checkh)) {window.addEventListener("resize", () => {
+window.addEventListener("resize", () => {
   window.location.reload();
 });
-}
+
