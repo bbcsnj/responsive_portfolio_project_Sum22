@@ -3,7 +3,7 @@
     offsetTop - returns the distance from the top edge of page to the element
     Once they are equal it means the navbar has reached the top of the page
 */
-const checkh = window.('(hover: none)').matches;
+const checkh = window.matchMedia('(hover: none)').matches;
 const navbar = document.querySelector(".navbar");
 const navbarOffsetTop = navbar.offsetTop;
 const sections = document.querySelectorAll("section");
