@@ -567,6 +567,7 @@ html {
 @media (max-height: 560px) {
   .section-1 {
     height: 110%;
+    padding-top: 3rem;
   }
   .section-4 {
     height: 110%;
