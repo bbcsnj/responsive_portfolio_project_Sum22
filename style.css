@@ -499,4 +499,8 @@ html {
     top: 0;    
   }
 
+  .nohover {
+    color: #fff;    
+  }
+
 }
