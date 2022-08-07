@@ -119,9 +119,7 @@ html {
   color: #fff;
 }
 
-.navbar-link:hover {
-  color: #fff;
-}
+
   
 .navbar-link::before {
   content: "";
@@ -138,9 +136,7 @@ html {
   width: 130%;
 }
 
-.navbar-link:hover::before {
-  width: 130%;  
-}
+
 /* End of Navbar */
 
 /* Section 2 */
@@ -253,10 +249,6 @@ html {
   transition: box-shadow 0.5s;
 }
 
-.project:hover {
-  box-shadow: 1rem 1rem 1rem #777;
-}
-
 .project-text {
   text-align: center;
   letter-spacing: 0.1rem;
@@ -264,11 +256,6 @@ html {
   top: -10rem; 
   z-index: 10;
   transition: top 0.3s;
-}
-
-.project:hover .project-text {
-  top: 5rem;
-  transition: top 0.3s 0.3s;
 }
 
 .project-name {
@@ -288,10 +275,6 @@ html {
   transition: opacity 0.3s;
 }
 
-.project:hover .project-img {
-  opacity: 0.2;
-}
-
 .project-link {
   font-size: 2rem;
   font-weight: 500;
@@ -305,10 +288,6 @@ html {
   transition: bottom 0.3s;
 }
 
-.project:hover .project-link {
-  bottom: 5rem;
-  transition: bottom 0.3s 0.3s;
-}
 /* End of Section 3 */
 
 /* Section 4 */
@@ -482,3 +461,38 @@ html {
 }
 
 /* End of Responsive */
+
+
+/* targets only devices that can hover */
+@media (hover: hover){
+  .navbar-link:hover {
+    color: #fff;
+  }
+
+  .navbar-link:hover::before {
+      width: 130%;  
+    }
+  
+  .project:hover {
+      box-shadow: 1rem 1rem 1rem #777;
+    }  
+
+  .project:hover .project-text {
+      top: 5rem;
+      transition: top 0.3s 0.3s;
+    }  
+
+  .project:hover .project-img {
+      opacity: 0.2;
+    }
+
+  .project:hover .project-link {
+      bottom: 5rem;
+      transition: bottom 0.3s 0.3s;
+    }
+
+}
+/* targets only devices that don’t hover */
+@media (hover: none){
+
+}
