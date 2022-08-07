@@ -12,6 +12,12 @@ const progress = document.querySelector(".progress-bars-wrapper");
 const progressBarPercents = [97, 89, 85, 87, 80, 70, 50];
 
 
+if (checkh) {
+  console.log(true);
+} else {
+  console.log(false);
+}
+
 window.addEventListener("scroll", () => {
   mainFn();
 });
