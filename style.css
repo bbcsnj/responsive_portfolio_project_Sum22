@@ -504,49 +504,49 @@ html {
   }
 
   .progress-percent ht {
-    width: 97;
+    width: 97%;
     height: 100%;
     background-color: #e41c6f;
     border-radius: 0.3rem;
     transition: width 0.5s 0.5s ease-in-out;
   }
   .progress-percent cs {
-    width: 89;
+    width: 89%;
     height: 100%;
     background-color: #e41c6f;
     border-radius: 0.3rem;
     transition: width 0.5s 0.5s ease-in-out;
   }
   .progress-percent js {
-    width: 85;
+    width: 85%;
     height: 100%;
     background-color: #e41c6f;
     border-radius: 0.3rem;
     transition: width 0.5s 0.5s ease-in-out;
   }
   .progress-percent sass {
-    width: 87;
+    width: 87%;
     height: 100%;
     background-color: #e41c6f;
     border-radius: 0.3rem;
     transition: width 0.5s 0.5s ease-in-out;
   }
   .progress-percent rjs {
-    width: 80;
+    width: 80%;
     height: 100%;
     background-color: #e41c6f;
     border-radius: 0.3rem;
     transition: width 0.5s 0.5s ease-in-out;
   }
   .progress-percent njs {
-    width: 70;
+    width: 70%;
     height: 100%;
     background-color: #e41c6f;
     border-radius: 0.3rem;
     transition: width 0.5s 0.5s ease-in-out;
   } 
   .progress-percent mdb {
-    width: 50;
+    width: 50%;
     height: 100%;
     background-color: #e41c6f;
     border-radius: 0.3rem;
