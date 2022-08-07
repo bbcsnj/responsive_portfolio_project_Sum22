@@ -47,4 +47,4 @@ do {
   window.addEventListener("resize", () => {
     window.location.reload();
   });
-} while (!(checkh))
+} while (checkh === false)
