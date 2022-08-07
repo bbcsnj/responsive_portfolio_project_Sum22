@@ -566,9 +566,9 @@ html {
 
 @media (max-height: 560px) {
   .section-4 {
-    height: 500px;
+    height: 100%;
   }
   .section-5 {
-    height: 500px;
+    height: 100%;
   }
 }
