@@ -17,14 +17,14 @@ if ((!checkh)) {window.addEventListener("scroll", () => {
 }
 
 const mainFn = () => {
-  if ((window.pageYOffset >= navbarOffsetTop) && (!checkh) ){
+  if (window.pageYOffset >= navbarOffsetTop) {
     navbar.classList.add("sticky");
   } else {
     navbar.classList.remove("sticky");
   }
 
   sections.forEach((section, i) => {
-    if ((window.pageYOffset >= section.offsetTop - 10) && (!checkh))  {
+    if (window.pageYOffset >= section.offsetTop - 10)  {
       navbarLinks.forEach((navbarLink) => {
         navbarLink.classList.remove("change");
       });
@@ -32,7 +32,7 @@ const mainFn = () => {
     }
   });
 
-  if ((window.pageYOffset + window.innerHeight >= progress.offsetTop) && (!checkh))  {
+  if (window.pageYOffset + window.innerHeight >= progress.offsetTop)  {
     document.querySelectorAll(".progress-percent").forEach((el, i) => {
       el.style.width = `${progressBarPercents[i]}%`;
       el.previousElementSibling.firstElementChild.textContent =
@@ -47,4 +47,5 @@ if ((!checkh)) {
 
 if ((!checkh)) {window.addEventListener("resize", () => {
   window.location.reload();
-});}
+});
+}
