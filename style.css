@@ -563,3 +563,9 @@ html {
     border: 0;
   }  
 }
+
+@media (max-height: 560px) {
+  .section-5 {
+    height: 100vh;
+  }
+}
