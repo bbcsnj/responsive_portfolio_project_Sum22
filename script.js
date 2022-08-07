@@ -41,9 +41,7 @@ const mainFn = () => {
   }
 };
 
-if ((!checkh)) {
-  mainFn();
-}
+mainFn();
 
 if ((!checkh)) {window.addEventListener("resize", () => {
   window.location.reload();
