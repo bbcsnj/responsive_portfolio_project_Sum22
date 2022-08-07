@@ -560,5 +560,6 @@ html {
   
   .project-link {
     bottom: 0rem;
+    border: 0;
   }  
 }
