@@ -555,6 +555,6 @@ html {
   } 
   
   .project-link {
-    bottom: 5rem;
+    bottom: -5rem;
   }  
 }
