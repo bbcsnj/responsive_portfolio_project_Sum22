@@ -11,6 +11,8 @@ const navbarLinks = document.querySelectorAll(".navbar-link");
 const progress = document.querySelector(".progress-bars-wrapper");
 const progressBarPercents = [97, 89, 85, 87, 80, 70, 50];
 
+console.log(checkh);
+
 window.addEventListener("scroll", () => {
   mainFn();
 });
