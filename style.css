@@ -494,5 +494,9 @@ html {
 }
 /* targets only devices that don’t hover */
 @media (hover: none){
+  .stickit {
+    position: fixed;
+    top: 0;    
+  }
 
 }
