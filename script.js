@@ -3,7 +3,7 @@
     offsetTop - returns the distance from the top edge of page to the element
     Once they are equal it means the navbar has reached the top of the page
 */
-
+const checkh = window.matchMedia('(hover: none)');
 const navbar = document.querySelector(".navbar");
 const navbarOffsetTop = navbar.offsetTop;
 const sections = document.querySelectorAll("section");
@@ -16,7 +16,7 @@ window.addEventListener("scroll", () => {
 });
 
 const mainFn = () => {
-  if (window.pageYOffset >= navbarOffsetTop) {
+  if ((window.pageYOffset >= navbarOffsetTop) && !checkh ){
     navbar.classList.add("sticky");
   } else {
     navbar.classList.remove("sticky");
