@@ -552,5 +552,9 @@ html {
     background-color: #e41c6f;
     border-radius: 0.3rem;
     transition: width 0.5s 0.5s ease-in-out;
-  }           
+  } 
+  
+  .project-link {
+    bottom: 5rem;
+  }  
 }
