@@ -18,7 +18,7 @@ window.addEventListener("scroll", () => {
 });
 
 const mainFn = () => {
-  if ((window.pageYOffset >= navbarOffsetTop) && !checkh ){
+  if ((window.pageYOffset >= navbarOffsetTop) && (!checkh) ){
     navbar.classList.add("sticky");
   } else {
     navbar.classList.remove("sticky");
